@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="assets/key-icon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="styles/style.css" media="all">
+    <link rel="stylesheet" href="styles/mediaquery.css" media="screen">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <main>
+        <section>
+            <div id="text-div">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+            </div>
+
+            <form action="placeholder.php" method="post" autocomplete="on">
+                <div class="general-text-input-div">
+                    <div class="text-input-div">
+                        <label for="email"><span class="material-symbols-outlined">person</span></label>
+                        <input type="email" name="email" id="email" required autocomplete="email" placeholder="E-Mail">
+                    </div>
+                    <div class="text-input-div">
+                        <label for="password"><span class="material-symbols-outlined">key</span></label>
+                        <input type="password" name="password" id="password" required minlength="8" maxlength="32" autocomplete="current-password" placeholder="Senha">
+                    </div>
+                </div>
+
+                <div class="input-button-div">
+                    <input class="input-button" type="submit" value="Entrar">
+                    <input class="input-button" type="button" value="Esqueci Minha Senha">
+                </div>
+            </form> 
+        </section>
+    </main>
+</body>
+</html>
