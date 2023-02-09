@@ -40,6 +40,7 @@ main {
 
     min-width: 300px;
     max-width: 1000px;
+    min-height: 600px;
     width: 40vw;
     height: 75vh;
 

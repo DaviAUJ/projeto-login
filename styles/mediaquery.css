@@ -8,6 +8,7 @@
 
     main {
         width: 70vw;
+        min-height: 530px;
     }
 
     section {
@@ -32,6 +33,7 @@
 /* Large+ */
 @media (min-width: 1201px) {
     main {
+        min-height: 310px;
         width: 70vw;
         height: 32.5vh;
     }
