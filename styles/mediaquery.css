@@ -4,6 +4,9 @@
 @media (min-width: 769px) {
     body {
         background-image: linear-gradient(180deg, #6F1DF5, #1A17FC, #2061E6);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
     }
 
     main {
