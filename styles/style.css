@@ -41,7 +41,7 @@ main {
     min-width: 300px;
     max-width: 1000px;
     width: 40vw;
-    height: 65vh;
+    height: 75vh;
 
     background-color: var(--cor2);
     background-image: url(../assets/pattern.jpg);
